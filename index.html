@@ -44,9 +44,87 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/conult.css" />
     <link rel="stylesheet" href="assets/css/conult-responsive.css" />
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+               // alert("okay");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        function go() {
+            document.getElementById("myModal").style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        function stop_show() {
+            document.getElementById("myModal").style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+
+
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        /* Modal Content */
+        .modal-content {
+          background-color: #fefefe;
+          margin: auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%;
+        }
+        
+        /* The Close Button */
+        .close {
+          color: #aaaaaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        </style>
+        
+        
+
+
+
+
 </head>
 
-<body>
+<body onload="go()">
     <div class="preloader">
   <!--      <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" /> -->
     </div>
@@ -660,6 +738,198 @@
                             </div>
                            
 
+                            
+
+
+                               <!--Case One Single-->
+                               <div class="case-one__single">
+                                <div class="case-one__img-box">
+                                    <div class="case-one__img">
+                                        <img src="assets/images/ants.jpg" alt="">
+                                        <div class="case-one__content">
+                                            <p class="case-one__tagline-line">Ants</p>
+                                            <h3 class="case-one__title"><a href="#"></a>
+                                            </h3>
+                                            <div class="case-one__icon">
+                                                <a href="#"><span class="icon-right-arrow"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="case-one__content">
+                                        <p class="case-one__tagline-line"></p>
+                                        <h3 class="case-one__title"><a href="#"></a>
+                                        </h3>
+                                        <div class="case-one__icon">
+                                            <a href="#"><span class="icon-right-arrow"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+
+
+                               <!--Case One Single-->
+                               <div class="case-one__single">
+                                <div class="case-one__img-box">
+                                    <div class="case-one__img">
+                                        <img src="assets/images/bedbugs.jpg" alt="">
+                                        <div class="case-one__content">
+                                            <p class="case-one__tagline-line">Bed Bugs</p>
+                                            <h3 class="case-one__title"><a href="#"></a>
+                                            </h3>
+                                            <div class="case-one__icon">
+                                                <a href="#"><span class="icon-right-arrow"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="case-one__content">
+                                        <p class="case-one__tagline-line"></p>
+                                        <h3 class="case-one__title"><a href="#"></a>
+                                        </h3>
+                                        <div class="case-one__icon">
+                                            <a href="#"><span class="icon-right-arrow"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+
+
+                               <!--Case One Single-->
+                               <div class="case-one__single">
+                                <div class="case-one__img-box">
+                                    <div class="case-one__img">
+                                        <img src="assets/images/birds.jpg" alt="">
+                                        <div class="case-one__content">
+                                            <p class="case-one__tagline-line">Birds</p>
+                                            <h3 class="case-one__title"><a href="#"></a>
+                                            </h3>
+                                            <div class="case-one__icon">
+                                                <a href="#"><span class="icon-right-arrow"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="case-one__content">
+                                        <p class="case-one__tagline-line"></p>
+                                        <h3 class="case-one__title"><a href="#"></a>
+                                        </h3>
+                                        <div class="case-one__icon">
+                                            <a href="#"><span class="icon-right-arrow"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+
+
+                               <!--Case One Single-->
+                               <div class="case-one__single">
+                                <div class="case-one__img-box">
+                                    <div class="case-one__img">
+                                        <img src="assets/images/cockroaches.jpg" alt="">
+                                        <div class="case-one__content">
+                                            <p class="case-one__tagline-line">Cockroaches</p>
+                                            <h3 class="case-one__title"><a href="#"></a>
+                                            </h3>
+                                            <div class="case-one__icon">
+                                                <a href="#"><span class="icon-right-arrow"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="case-one__content">
+                                        <p class="case-one__tagline-line"></p>
+                                        <h3 class="case-one__title"><a href="#"></a>
+                                        </h3>
+                                        <div class="case-one__icon">
+                                            <a href="#"><span class="icon-right-arrow"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+
+
+                               <!--Case One Single-->
+                               <div class="case-one__single">
+                                <div class="case-one__img-box">
+                                    <div class="case-one__img">
+                                        <img src="assets/images/millipede.jpg" alt="">
+                                        <div class="case-one__content">
+                                            <p class="case-one__tagline-line">Millipedes</p>
+                                            <h3 class="case-one__title"><a href="#"></a>
+                                            </h3>
+                                            <div class="case-one__icon">
+                                                <a href="#"><span class="icon-right-arrow"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="case-one__content">
+                                        <p class="case-one__tagline-line"></p>
+                                        <h3 class="case-one__title"><a href="#"></a>
+                                        </h3>
+                                        <div class="case-one__icon">
+                                            <a href="#"><span class="icon-right-arrow"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+
+                               <!--Case One Single-->
+                               <div class="case-one__single">
+                                <div class="case-one__img-box">
+                                    <div class="case-one__img">
+                                        <img src="assets/images/snakes" alt="">
+                                        <div class="case-one__content">
+                                            <p class="case-one__tagline-line">Snakes</p>
+                                            <h3 class="case-one__title"><a href="#"></a>
+                                            </h3>
+                                            <div class="case-one__icon">
+                                                <a href="#"><span class="icon-right-arrow"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="case-one__content">
+                                        <p class="case-one__tagline-line"></p>
+                                        <h3 class="case-one__title"><a href="#"></a>
+                                        </h3>
+                                        <div class="case-one__icon">
+                                            <a href="#"><span class="icon-right-arrow"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+
+
+                               <!--Case One Single-->
+                               <div class="case-one__single">
+                                <div class="case-one__img-box">
+                                    <div class="case-one__img">
+                                        <img src="assets/images/dragonfly.jpg" alt="">
+                                        <div class="case-one__content">
+                                            <p class="case-one__tagline-line">Other flying bugs</p>
+                                            <h3 class="case-one__title"><a href="#"></a>
+                                            </h3>
+                                            <div class="case-one__icon">
+                                                <a href="#"><span class="icon-right-arrow"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="case-one__content">
+                                        <p class="case-one__tagline-line"></p>
+                                        <h3 class="case-one__title"><a href="#"></a>
+                                        </h3>
+                                        <div class="case-one__icon">
+                                            <a href="#"><span class="icon-right-arrow"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+
+
+
                             <!--Case One Single-->
                             <div class="case-one__single">
                                 <div class="case-one__img-box">
@@ -685,6 +955,8 @@
                                     </div>
                                 </div>
                             </div>
+
+
 
 
 
@@ -999,6 +1271,23 @@
 
     <!-- template js -->
     <script src="assets/js/conult.js"></script>
+
+
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      
+      <p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners. You can change your cookie settings at any time. </p>
+     <button class="thm-btn" onclick="stop_show()" > Allow all cookies</button>
+    </div>
+  
+  </div>
+
+    
+
 </body>
 
 </html>
