@@ -184,6 +184,11 @@
         font-size: 16px;
     }
 
+    .topnav {
+        float: none;
+        display: block;
+        position: fixed;
+        }
 
 
 
@@ -452,6 +457,11 @@
     .section-title__title {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #00294b;
     }
 
     .feature-one__icon-box {
@@ -1315,6 +1325,11 @@
         display: inline-block;
         padding: 36px 0;
     }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #00294b;
+        }
 
     .main-menu-wrapper__logo:before {
         display: none;
