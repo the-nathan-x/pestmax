@@ -58,7 +58,20 @@
         
         // When the user clicks the button, open the modal 
         function go() {
-            document.getElementById("myModal").style.display = "block";
+          
+            if (window.location.protocol == 'http:') {
+     
+            console.log("you are accessing us via "+  "an insecure protocol (HTTP). " + "Redirecting you to HTTPS.");
+          
+            window.location.href = window.location.href.replace('http:', 'https:');
+                }
+            else{
+                console.log("you are accessing us via" + " our secure HTTPS protocol.");
+            }
+             
+
+          
+            //  document.getElementById("myModal").style.display = "block";
         }
         
         // When the user clicks on <span> (x), close the modal
@@ -228,7 +241,7 @@
 
 </head>
 
-<body>
+<body onload="go()">
     <div class="preloader">
   <!--      <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" /> -->
     </div>
@@ -1020,7 +1033,7 @@
                                <div class="case-one__single">
                                 <div class="case-one__img-box">
                                     <div class="case-one__img">
-                                        <img src="assets/images/snakes" alt="">
+                                        <img src="assets/images/snakes.jpg" alt="">
                                         <div class="case-one__content">
                                             <p class="case-one__tagline-line">Snakes</p>
                                             <h3 class="case-one__title"><a href="#"></a>
